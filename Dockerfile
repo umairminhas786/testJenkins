@@ -17,7 +17,7 @@ RUN apt-get update \
 # Copy files
 COPY apache-conf /etc/apache2/apache2.conf
 WORKDIR /var/www/html
-RUN echo "This works version 1">index.html
+RUN echo "This works jenkins">index.html
  
 # Expose Apache
 EXPOSE 80
